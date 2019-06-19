@@ -13,7 +13,7 @@ namespace ComicBookGallery.Controllers
         {
 
             var comicBook = new ComicBook() //object initializer syntax
-            { 
+            {
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
@@ -25,23 +25,7 @@ namespace ComicBookGallery.Controllers
                     new Artist() {Name = "Edgar Delgado", Role = "Colors"},
                     new Artist() {Name = "Chris Eliopoulos", Role = "Letters"},
                 }
-
             };
-
-            //comicBook.SeriesTitle = "";
-
-            //ViewBag.SeriesTitle = "The Amazing Spider-Man";
-            //ViewBag.IssueNumber = 700;
-            //ViewBag.Description = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>";
-            //ViewBag.Artists = new string[]
-            //{
-            //    "Script: Dan Slott",
-            //    "Pencils: Humberto Ramos",
-            //    "Inks: Victor Olazaba",
-            //    "Colors: Edgar Delgado",
-            //    "Letters: Chris Eliopoulos"
-            //};
-
             return View(comicBook);
         }
     }
