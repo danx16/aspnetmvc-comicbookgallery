@@ -12,8 +12,8 @@ namespace ComicBookGallery.Controllers
         public ActionResult Details()
         {
 
-            var comicBook = new ComicBook()
-            { //object initializer syntax
+            var comicBook = new ComicBook() //object initializer syntax
+            { 
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
@@ -27,6 +27,7 @@ namespace ComicBookGallery.Controllers
                 }
 
             };
+
             //comicBook.SeriesTitle = "";
 
             //ViewBag.SeriesTitle = "The Amazing Spider-Man";
