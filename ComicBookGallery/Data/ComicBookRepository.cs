@@ -9,9 +9,10 @@ namespace ComicBookGallery.Data
     public class ComicBookRepository
     {
         private static ComicBook[] _comicBooks = new ComicBook[]
-        {   
+        {
             new ComicBook() //object initializer syntax
             {
+                Id = 1,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
@@ -26,6 +27,7 @@ namespace ComicBookGallery.Data
             },
             new ComicBook()
             {
+                Id  =  2,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 657,
                 DescriptionHtml = "<p><strong>FF: THREE TIE-IN.<strong> Spider-Man visits the FF for a very private wake....</p>",
@@ -41,6 +43,7 @@ namespace ComicBookGallery.Data
             },
             new ComicBook()
             {
+                Id = 3,
                 SeriesTitle = "Bone",
                 IssueNumber = 80,
                 DescriptionHtml = "<p><strong>The Dungeon & The Paraphet, Part 1 </strong></p>",
